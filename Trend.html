@@ -5,38 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trend</title>
-    <link rel="stylesheet" href="Trend.css">
+    <link rel="stylesheet" href="css/Trend.css">
 </head>
 <body>
+    <div class="bg-image"></div>
     <h1>Best Item</h1>
     <hr>
     <main>
-        <section id="Best1">
-            <img src="66girls.jpg" alt="66girls" width="40%">
-            <form>
-                <a href="66girls.html" target="_blank"><input type="button" value = "Go in"></a>
-            </form>
-        </section>
-        <section id="Best2">
-            <img src="hotping.jpg" alt="hotping" width="40%">
-            <form>
-                <a href="hotping.html" target="_blank"><input type="button" value = "Go in"></a>
-            </form>
-        </section>
-        <section id="Best3">
-            <img src="slowand.jpg" alt="slowand" width="40%">
-            <form>
-                <a href="slowand.html" target="_blank"><input type="button" value = "Go in"></a>
-            </form>
-        </section>
+        <div class="girls_best">
+            <img src="img/66girls.jpg" class="girls">
+                <button type="button" class="girls_button" onClick="location.href='66girls.html'">"GO IN"</button>
+        </div>
+        <div class="hotping_best">
+            <img src="img/hotping.jpg" class="hotping">
+                <button type="button" class="hotping_button" onClick="location.href='hotping.html'">"GO IN"</button>     
+        </div>
+        <div class="slowand_best">
+            <img src="img/slowand.jpg" class="slowand">
+                <button type="button" class="slowand_button" onClick="location.href='slowand.html'">"GO IN"</button>
+        </div>
+        <div class="ririnco_best">
+            <img src="img/ririnco.jpg" class="ririnco">
+                <button type="button" class="ririnco_button" onClick="location.href='ririnco.html'">"GO IN"</button>
+        </div>
     </main>
-    <footer>
-        <ul>
-            <nav>
-                <li><a href="#">contect |</a></li>
-                <li><a href="#">|help</a></li>
-            </nav>
-        </ul>
-    </footer>
 </body>
 </html>
